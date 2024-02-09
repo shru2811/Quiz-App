@@ -124,8 +124,5 @@ function gameOver(){
 
   }
   options.innerHTML = "";
-  nextBtn.style.display = "contents";
-  nextBtn.innerText = "Play Again!";
-  nextBtn.addEventListener("click",startQuiz);
 }
 startQuiz();
